@@ -17,6 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
+  
   ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
@@ -33,7 +34,10 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+assembled_matrix = [
+  CONVENTIONAL_PRODUCE, 
+  ORGANIC_PRODUCE
+  ]
             
              
   
@@ -61,7 +65,7 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-
+sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 
 end
   # Using Array literal syntax only, build another nested array that 
