@@ -44,6 +44,7 @@ assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
 
 def sorted_matrix
+
 ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
