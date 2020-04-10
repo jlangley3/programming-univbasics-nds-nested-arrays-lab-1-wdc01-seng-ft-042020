@@ -28,30 +28,7 @@ assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
 
 def sorted_matrix
-assembled_matrix = [ [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-],
 
- [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-]
-  ]   
-  
-  assembled_matrix[0].sort do | a, b |
-    if a == b
-      0
-elseif a > b 
-  1 
-elseif a < b 
-  -1
 end
 end
   # Using Array literal syntax only, build another nested array that 
