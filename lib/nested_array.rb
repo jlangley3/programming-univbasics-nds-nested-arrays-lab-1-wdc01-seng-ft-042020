@@ -53,7 +53,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   
-     matrix_lookup = matrix[row][column]
+     matrix_update = matrix[row][column]
      matrix_lookup = new_value
      matrix_lookup
    
