@@ -53,12 +53,10 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   
-     matrix[row][column] = new_value
+     matrix_lookup = matrix[row][column]
+     matrix_lookup = new_value
+     matrix_lookup
    
-    result = matrix_update(local_copy_of_matrix, 0, 2, "Lemons")
-      expect(result[0]).to eq(["Grapefruit", "Pineapple", "Lemons", "Watermelon", "Eggplant"])
-      result = matrix_update(result, 0, 2, "Onions")
-      expect(result[0]).to eq(["Grapefruit", "Pineapple", "Onions", "Watermelon", "Eggplant"])
       
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
