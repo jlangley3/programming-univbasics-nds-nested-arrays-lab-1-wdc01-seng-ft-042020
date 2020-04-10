@@ -32,6 +32,7 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
+
 assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
             
              
