@@ -18,22 +18,7 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
 (assembled_matrix).to eq([CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE])
-assembled_matrix = [ [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-],
-
- [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-]
-  ]             
+            
              
   
   # Build an array that contains both of the above arrays
